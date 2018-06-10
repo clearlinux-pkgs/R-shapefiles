@@ -4,7 +4,7 @@
 #
 Name     : R-shapefiles
 Version  : 0.7
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/shapefiles_0.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/shapefiles_0.7.tar.gz
 Summary  : Read and Write ESRI Shapefiles
@@ -23,11 +23,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1528652441
+export SOURCE_DATE_EPOCH=1528652716
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1528652441
+export SOURCE_DATE_EPOCH=1528652716
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
