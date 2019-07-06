@@ -4,7 +4,7 @@
 #
 Name     : R-shapefiles
 Version  : 0.7
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/shapefiles_0.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/shapefiles_0.7.tar.gz
 Summary  : Read and Write ESRI Shapefiles
